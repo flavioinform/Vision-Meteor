@@ -11,9 +11,10 @@ function Footer() {
 
      
       <div className="flex justify-center space-x-6 mb-4">
-        <a href="/" className="hover:text-accent transition">Inicio</a>
-        <a href="/documentacion" className="hover:text-accent transition">Documentación</a>
-        <a href="/about" className="hover:text-accent transition">Informacion</a>
+
+        <Link to="/" className="hover:text-accent transition">Inicio</Link>
+        <Link to="/documentacion" className="hover:text-accent transition">Documentación</Link>
+        <Link to="/about" className="hover:text-accent transition">Informacion</Link>
         {/* <a href="mailto:contacto@visionmeteor.com" className="hover:text-accent transition">Contacto</a> */}
       </div>
 
