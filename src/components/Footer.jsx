@@ -1,4 +1,5 @@
 // src/components/Footer.jsx
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="bg-[#0A192F] text-[#CCD6F6] border-t border-[#112240] py-8 px-6 text-center">
