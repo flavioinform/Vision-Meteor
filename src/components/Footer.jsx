@@ -9,15 +9,15 @@ function Footer() {
         <span className="text-accent font-semibold"> Meteor M2 </span> captadas por estaciones terrestres.
       </p> */}
 
-      {/* Enlaces */}
+     
       <div className="flex justify-center space-x-6 mb-4">
-        <a href="/about" className="hover:text-accent transition">Informacion</a>
+        <a href="/" className="hover:text-accent transition">Inicio</a>
         <a href="/documentacion" className="hover:text-accent transition">Documentación</a>
         <a href="/about" className="hover:text-accent transition">Informacion</a>
         {/* <a href="mailto:contacto@visionmeteor.com" className="hover:text-accent transition">Contacto</a> */}
       </div>
 
-      {/* Iconos (opcional) */}
+
       <div className="flex justify-center space-x-4 mb-4">
         <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
           <i className="fa-brands fa-github text-2xl hover:text-accent transition"></i>
