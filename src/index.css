@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-bg {
+  background-image: linear-gradient(rgba(10, 25, 47, 0.7), rgba(10, 25, 47, 0.9)),
+                    url("https://lh3.googleusercontent.com/aida-public/AB6AXuCgUp-pzjSJbqxkv1laErjlqGd5fgJDEyAZ_1BC6WRRxQOJZMyE4Em_gAdxFM84-9j4ZdBWhXjSwnZLr3PxFa23PUmxbgicmx-xUjXDj1M-u_wRnEdiDmFKEOMtE0WKrUOgCoajrg4y7ecahVpLJ6ZkxxRoXo2JU91GnvdlWhgp4OoDm1GRjjIS41VoPzszsIRWl37A1AP3TjnneMZf3kRfziuZyiA5XZVxUn1vvofySPEVLrjeHrjY0t4Lfd64U-UAkA7LqBckvWpy");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
